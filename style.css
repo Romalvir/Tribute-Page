@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'teslaregular';
+    src: url('tesla-webfont.woff2') format('woff2'),
+         url('tesla-webfont.woff') format('woff');
+    	font-weight: normal;
+    	font-style: normal;
+}
+
+body{
+	background-color: #a6a2a2;
+}
+#title {
+	text-align: center;
+	font-family: 'teslaregular';
+	font-weight: normal;
+    font-style: normal;
+    color: white;
+}
+
+.para{
+	text-align: center;
+	font-family: 'Oxygen', sans-serif;
+}
+
+ul {
+	font-family: 'Oxygen', sans-serif;
+	text-align: left;
+	width: 40%;
+	position:relative;
+	left: 30%;
+	line-height: 35px;
+
+}
+
+/* first we make text-align: left -----> text can be beside dotted bullet
+then we make width: 40% -------> ul now has 40% width from its container(ex:div)
+then we make position: relative —> to can move ul to any position relative to its current position
+then we make left: 30% —> move ul to left 30% from current position,
+to move it to center of container,why this number?
+first ul has width= 40% so remaining 100-40=60
+now to make it center divide number 60/2=30
+all width= 30% left, 40% ul , 30% remaining … now this position is in center */
+
+
+h3 {
+	font-family: 'Oxygen', sans-serif;
+	text-align: center;
+}
+
+.more{
+	font-family: 'Oxygen', sans-serif;
+	text-align: center;
+	
+}
+
+.tone{
+
+}
+
+#img-div{
+	background-color: #a6a2a2;
+}
+
+.vehicle{
+ 	box-shadow: 0 8px 6px -6px black;
+ 	border-radius: 25px;
+	max-width: 60%;
+  	height: auto;
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+
+}
+
+.caption{
+	text-align: center;
+	font-family: 'Oxygen', sans-serif;
+}
+
+
+.another{
+
+
+	
+}
+
+.lettering{
+	font-family: 'teslaregular';
+	font-weight: normal;
+    font-style: normal;
+}
+
+}
